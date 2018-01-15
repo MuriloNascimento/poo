@@ -11,27 +11,19 @@ $sm->assign("nome","Murilo");
 $sm->display('index.tpl');
 
 
-- carro
-nome
-cor
-data_compra
-quilometragem
+  espetaculo
+    - nome
+    - autor
+    - data
+    - duracao
 
+  reserva
+    - status
+    - cpf
+    - nome
+    - espetaculo
+    - poltrona
 
-- categoria
-nome
-
-
-- peca
-categoria
-nome
-
-
-- revisao
-carro
-peca
-data_troca
-custo_peca
-curto_mao_de_obra
-quilometragem
-quilometragem_proxima_troca
+  poltronas
+    - numero
+    - preco
